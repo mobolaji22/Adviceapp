@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-image: linear-gradient(red, yellow);
+  height: 100vh;
+  padding: 1rem;
+}
+
+h1 {
+  text-shadow: 2px 2px #ff0000;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  background-color: yellowgreen;
+}
+
+button:hover {
+  background-color: yellow;
+  box-shadow: 2px 2px 5px #ff0000;
+}
+
+button:active {
+  background-color: red;
+}
